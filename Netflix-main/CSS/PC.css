@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("asset/img/BACKGROUND.jpg");
+    height: 690px;
+    position: relative;
+    /* background-position: center; */
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0;
+}
+
+.main .box {
+    /* opacity: 70%; */
+
+    height: 690px;
+    width: 100%;
+    background: rgb(0 0 0 / 40%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    top: 0;
+    
+}
+
+nav {
+    display: flex;
+    padding: 25px 30px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 148px;
+
+}
+
+nav select {
+
+    position: relative;
+    z-index: 10;
+    padding: 6px 32px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+nav select:focus{
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+nav a {
+    position: relative;
+    z-index: 10;
+    background-color: #e50914;
+    padding: 7px;
+    border-radius: 4px;
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    background-color: #bd050e;
+}
+
+
+.main .toptext1 {
+    position: relative;
+    z-index: 10;
+    font-size: 48px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 15%;
+
+}
+
+.main .toptext2 {
+    position: relative;
+    z-index: 10;
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 15%;
+}
+
+.main .toptext3 {
+    position: relative;
+
+    z-index: 10;
+    font-size: 20px;
+
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    top: 20%;
+
+}
+
+.email {
+    position: relative;
+    z-index: 10;
+    top: 160px;
+    height: 55px;
+    width: 360px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 10px;
+    filter: contrast(85%);
+    color: white;
+    opacity: 60%;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+.email::placeholder{
+    color: white;
+
+}
+.email:focus{
+    border: 4px solid white;
+}
+
+
+.main .get {
+    position: relative;
+    z-index: 10;
+    top: 160px;
+    height: 55px;
+
+
+    background-color: #e50914;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 0px 20px;
+    border: 0px;
+}
+
+.main .get:hover{
+    background-color: #bd050e;
+}
+
+.line {
+    border: 1px solid #2d2d2d;
+    height: 6px;
+    background-color: #2d2d2d;
+}
+
+.first {
+    display: flex;
+    width: 100vw;
+    margin: 50px 0px 50px 0px;
+    height: 450px;
+    /* border: 2px solid red; */
+}
+
+.first .sectext1 {
+
+    /* display:flex; */
+    padding: 40px;
+    align-self: center;
+
+
+    color: rgb(255, 255, 255);
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.first .sectext1 h2 {
+
+
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.first .sectext1 div {
+
+    font-weight: 200;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.first .content {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.first img {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    width: 520px;
+    align-items: center;
+    justify-content: center;
+}
+
+.first video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    width: 390px;
+    left: 71px;
+    z-index: -1
+}
+
+.second {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+    height: 450px;
+    /* border: 2px solid red; */
+}
+
+.second .content {
+    width: 50vw;
+    box-sizing: border-box;
+}
+
+.second img {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    width: 580px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.second .content .Download {
+    height: 90px;
+    width: 360px;
+    background-color: #000000;
+    border: 2px solid gray;
+    border-radius: 15px;
+    z-index: 10;
+    position: relative;
+    left: 110px;
+    top: 310px;
+}
+
+.second .content .Download img:nth-child(1) {
+    width: 50px;
+    margin: 10px;
+}
+
+.second .content .Download div:nth-child(2) {
+
+
+    margin: 25px 0px 0px 80px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: sans-serif;
+
+
+}
+
+.second .content .Download div:nth-child(3) {
+    margin: 0px 0px 0px 80px;
+    color: #0071eb;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+.second .content .Download :nth-child(4) {
+    width: 50px;
+    margin: 10px;
+    display: flex;
+    bottom: 10px;
+    left: 280px;
+}
+
+.second .sectext2 {
+    padding: 40px;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    width: 50vw;
+    box-sizing: border-box;
+}
+
+.second .sectext2 h2 {
+
+
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.second .sectext2 div {
+
+    font-weight: 200;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.third {
+    display: flex;
+    width: 100vw;
+    margin: 50px 0px 50px 0px;
+    height: 450px;
+    /* border: 2px solid red; */
+}
+
+.third .sectext3 {
+
+    /* display:flex; */
+    padding: 40px;
+    align-self: center;
+
+
+    color: rgb(255, 255, 255);
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.third .sectext3 h2 {
+
+
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.third .sectext3 div {
+
+    font-weight: 200;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.third .content {
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.third img {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    width: 520px;
+    align-items: center;
+    justify-content: center;
+}
+
+.third video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    width: 340px;
+    left: 85px;
+    z-index: -1
+}
+
+.fourth {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+    height: 450px;
+    /* border: 2px solid red; */
+}
+
+.fourth .content {
+    width: 50vw;
+    box-sizing: border-box;
+}
+
+.fourth img {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    width: 570px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+}
+
+.fourth .sectext4 {
+    padding-left: 10px;
+    align-self: center;
+
+
+    color: rgb(255, 255, 255);
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.fourth .sectext4 h2 {
+
+
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 49px;
+    font-family: sans-serif;
+}
+
+.fourth .sectext4 div {
+
+    font-weight: 200;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.fifth {
+    width: 100%;
+}
+
+.fifth h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 48px;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.fifth .block {
+    background-color: #2d2d2d;
+    color: rgb(255, 255, 255);
+    margin: 10px 32px;
+    padding: 27px;
+    font-family: sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth .block:hover{
+    background-color: #423f3f;
+    
+}
+
+.fifth .block svg {
+    direction: rtl;
+}
+
+.fifth p {
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fifth span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email2 {
+
+    /* position: relative; */
+    z-index: 10;
+    top: 25px;
+    height: 55px;
+    width: 360px;
+    background-color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: medium;
+    padding-left: 10px;
+    filter: contrast(85%);
+    opacity: 60%;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.email2::placeholder{
+    color: white;
+
+}
+.email2:focus{
+    border: 4px solid white;
+}
+
+
+.get2 {
+    /* position: relative; */
+    z-index: 10;
+    top: 25px;
+    height: 55px;
+    background-color: #e50914;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 0px 20px;
+    border: 0px;
+    margin-left: 10px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.get2:hover{
+    background-color: #bd050e;
+}
+
+footer .container .top {
+    display: flex;
+    margin:70px 30px 30px 30px;
+}
+
+footer .container .top div {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+footer .container .top a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+footer .mid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 20px;
+    row-gap: 15px;
+}
+footer .mid a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight:100;
+    font-family: sans-serif;
+}
+
+footer div select {
+    position: relative;
+    padding: 6px 32px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 30px 0px 10px 30px;
+    font-size: 18px;
+}
+
+footer div select:focus{
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+
+footer .Netflix{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 100;
+    font-family: sans-serif;
+    margin:10px 0px 80px 30px;
+    
+}
